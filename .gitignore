@@ -1,0 +1,83 @@
+# Fastlane
+fastlane/report.xml
+fastlane/test_output
+fastlane/screenshots
+fastlane/logs
+fastlane/.env.default
+fastlane/.env.local
+fastlane/Preview.html
+
+# Fastlane Match
+fastlane/certs
+fastlane/provisioning_profiles
+
+# Xcode
+build/
+DerivedData/
+*.xcarchive
+*.ipa
+*.app
+*.dSYM
+*.entitlements
+xcuser*.xcuserdatad
+xcshareddata/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+**/*.playground/timeline.xctimeline
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# CocoaPods
+Pods/
+Podfile.lock
+*.podspec.json
+
+# Ruby / Bundler
+Gemfile.lock
+vendor/bundle
+.ruby-version
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.c9/
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Node modules (if used for mobile development)
+node_modules/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
